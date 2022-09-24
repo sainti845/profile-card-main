@@ -1,0 +1,101 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  main {
+    width: 400px;
+    height: 440px;
+    margin: auto;
+    margin-top: 10%;
+
+    box-shadow: 3px 3px 29px 11px #2c91b9;
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+background-repeat: no-repeat, no-repeat;
+background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+background-color: hsl(185deg, 75%, 39%);
+margin:100px auto;
+  }
+
+  .blank {
+    background-image: url('images/bg-pattern-card.svg');
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+   section{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+   }
+  .container {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+  .container li {
+    flex: 30%;
+    list-style-type: none;
+  }
+
+  .top-image {
+    position: absolute;
+    top: -400px;
+  z-index: -1;
+  left: -300px;
+
+  }
+
+  .bottom-image {
+    position: absolute;
+    z-index: -1;
+  right: -141px;
+  top: 450px;
+
+  }
+
+  .main-image {
+    position: relative;
+    border-radius: 60px;
+    bottom: 45px;
+    left: 150px;
+
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .name h3 {
+    margin: -36px auto 0;
+  }
+
+  .age {
+    color: grey;
+    font-weight: 400;
+  }
+
+  @media(max-width:500px){
+    .main{
+      width: 322px;
+      margin: 40px auto;
+    }
+    img{
+      left: 115px;
+    }
+  }
